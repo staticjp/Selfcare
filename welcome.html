@@ -13,10 +13,10 @@
   </div>
 <nav>
     <ul> 
-<li><a href="blank.html">Home</a></li>
+<li><a href="welcome.html">Home</a></li>
 <li><a href="blank.html">SelfCare</a></li>
 <li><a href="blank.html">Goals </a></li>
-      <li><a href="blank.html">HomeIdeas </a></li>
+      <li><a href="homeideas.html">HomeIdeas </a></li>
        <li><a href="blank.html">DailyHelp</a></li>
     </ul>
   </nav>
@@ -34,7 +34,37 @@
         
         
   <div class="bottom">
-    <p><strong>Contact Us</strong></p>
+    <p><strong>Need some help? </strong></p>
+    <div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    
+    
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    
+<label for="level">What level of help do you require</label>
+  <input type="checkbox" id="somehelp" name="somehelp" value="Need some help">
+  <label for="somehelp"> Only in need of suggestions</label><br>
+  <input type="checkbox" id="mediumhelp" name="mediumhelp" value="A good amount of help">
+  <label for="vehicle2"> I need more help then average</label><br>
+  <input type="checkbox" id="mosthelp" name="mosthelp" value="The highest amount of help">
+  <label for="vehicle3"> I need help in every aspect</label><br><br>
+  
+    <label for="area">which area are you needing help the most</label>
+    <select id="area" name="what area needs the most help">
+      <option value="selfcare">self care</option>
+      <option value="homedecor/space saving">Homedecor/space saving</option>
+      <option value="goals">Setting goals for myself</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
     <p>Email: contact@example.com</p>
     <p>Phone: (123) 456-7890</p>
   </div>  
