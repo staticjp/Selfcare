@@ -7,12 +7,15 @@ header{background-color: white;}
   grid-template-rows: 80px, 1fr, 80px;
   height: 100vh;}
 .top {
-  width: 1fr;
+  width: 600px;
  height: 80px;
   background-color: #fff0f0;
   display: flex;
   justify-content: center;
   align-items: center;}
+img {width: 200px;
+  height: 300px;
+  object-fit: contain;}
 
 .middle {
   background-color: #ecb5b1;
@@ -64,7 +67,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 60px;
+  width: 100px;
   height: 60px;
 }
 
@@ -80,18 +83,18 @@ div.desc {
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 30px;
+  width: 100px;
 }
 
-@media only screen and (max-width: 60px) {
+@media only screen and (max-width: 100px) {
   .responsive {
-    width: 60px;
+    width: 100px;
     margin: 6px 0;
   }
 }
 
-@media only screen and (max-width: 60px) {
-  .responsive { width: 60px;}
+@media only screen and (max-width:100px) {
+  .responsive { width: 100px;}
 }
 
 .clearfix:after {content: "";
