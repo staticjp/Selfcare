@@ -1,5 +1,5 @@
 body {background-color:#ffe0e0;
-    font-family:lucida Sans,Verdana, Geneva,sans-serif;}
+    font-family:Rockwell,veranda,palatino, poppins;}
 
 header{background-color: white;}
 
@@ -101,11 +101,36 @@ div.desc {
   display: table;
   clear: both;}
 
+.accordion {
+  --accordion-padding-y: 1rem;
+  --accordion-padding-x: 1.25rem;
+  --accordion-color: #fff;
+  --accordion-bg: #ffe0e0;
+  --accordion-border-width: 1px;
+  --accordion-border-color: white;
+  --accordion-border-radius: 0.375rem;
+  --accordion-inner-border-radius: calc(0.375rem - 1px);
 
+  --accordion-body-padding-y: 1rem;
+  --accordion-body-padding-x: 1.25rem;
 
+  --accordion-button-padding-y: 1rem;
+  --accordion-button-padding-x: 1.25rem;
+  --accordion-button-color: #212529;
+  --accordion-button-bg: #fff;
+  --accordion-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, border-radius .15s ease;
+  --accordion-button-active-bg: #ffe0e0; /* tint-color of #0d6efd by ~90% */
+  --accordion-button-active-color: #ffe0e0; /* shade-color of #0d6efd by 10% */
 
+  --accordion-button-focus-border-color: #d7e3c8;
+  --accordion-button-focus-box-shadow: 0 0 0 0.25rem #d7e3c8;
 
+  --accordion-icon-width: 1.25rem;
+  --accordion-icon-color: #212529;
+  --accordion-icon-active-color: #ffe0e0;
+  --accordion-icon-transition: transform .2s ease-in-out;
+  --accordion-icon-transform: rotate(-180deg);
 
-
-
-
+  --accordion-button-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+  --accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230b5ed7'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
