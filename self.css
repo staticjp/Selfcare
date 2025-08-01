@@ -6,7 +6,7 @@ header{background-color: white;}
 
 .grid-container {
   display: grid;
-  grid-template-rows: 80px, 1fr, 1fr;
+  grid-template-rows: 1fr, 100px, 100px;
 
   
   height: 100vh
